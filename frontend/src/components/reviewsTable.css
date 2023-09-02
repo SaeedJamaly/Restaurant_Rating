@@ -1,0 +1,56 @@
+:root {
+    --background-color: #231f20;
+    --logo-red: #b11f29;
+    --logo-gold: #df5d23;
+    --text-color: #fff6eb;
+    --footnote-color: #918d8e;
+    --even: #9a9a9a;
+    --odd: #1f1f1f;
+}
+
+h1 {
+    color: var(--text-color);
+    text-align: center;
+}
+
+img {
+    width: 150px;
+}
+
+th {
+    padding: 1rem;
+    text-align: center;
+    color: var(--text-color);
+}
+
+thead {
+    background-color: var(--even);
+}
+
+td {
+    padding: 1rem;
+    text-align: center;
+    color: var(--text-color);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--odd);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--even);
+}
+
+.reviews_container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color);
+    margin-bottom: -100rem;
+}
+
+.table {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10rem;
+}

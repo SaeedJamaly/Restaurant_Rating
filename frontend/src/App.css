@@ -1,0 +1,130 @@
+:root {
+  --background-color: #b5b1b2;
+  --footer: #151213;
+  --logo-red: #b11f29;
+  --logo-gold: #df5d23;
+  --text-color: #fff6eb;
+  --footnote-color: #918d8e;
+}
+
+h1 {
+  color: var(--text-color);
+  text-align: center;
+}
+
+a {
+  color: var(--footnote-color);
+  text-decoration: none;
+  padding: 0.2rem;
+}
+
+a:hover {
+  color: var(--text-color);
+}
+
+img {
+  width: 150px;
+}
+
+input {
+  height: 1.5rem;
+  padding-left: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 1.5rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+}
+
+footer {
+  width: 100%;
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
+  background-color: var(--footer);
+}
+
+.container {
+  width: 100%;
+  height:100%;
+  background-color: var(--background-color);
+  margin-bottom: -100rem;
+}
+
+.logo {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.form_container {
+  display: block;
+  text-align: center;
+  color: var(--text-color);
+}
+
+
+
+.review-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.rating_container {
+  display: block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.button_container {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: var(--logo-red);
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: var(--text-color);
+  cursor: pointer;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 2rem;
+}
+
+.button_container:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+.footer_links {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  margin-left: 20rem;
+  padding-bottom: 2rem;
+}
+
+.Copy_Right {
+  padding: 1rem;
+  text-align: center;
+}
