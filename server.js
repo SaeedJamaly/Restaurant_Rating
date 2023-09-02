@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 // Connect to the MongoDB database
-const uri = 'mongodb+srv://saeedjamalifashi1989:scores123@cluster0.mk5m7wr.mongodb.net/';
+const uri = 'mongodb+srv://***:***@cluster0.mk5m7wr.mongodb.net/';
 mongoose.connect(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
